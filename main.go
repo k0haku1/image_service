@@ -1,9 +1,15 @@
 package main
 
-import "net/http"
+import (
+	"log"
+	"net/http"
+)
 
 func main() {
-	mux := http.NewServeMux()
+	router := InitRouter()
 
-	mux.HandleFunc("/task/create", createTaskHandler)
+	log.Println("Server listening on :8080")
+	if err := http.ListenAndServe(":8080", router); err != nil {
+		log.Fatal(err)
+	}
 }
