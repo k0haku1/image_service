@@ -8,8 +8,8 @@ import (
 func main() {
 	router := InitRouter()
 
-	log.Println("Server listening on :8081")
-	if err := http.ListenAndServe(":8081", router); err != nil {
+	log.Println("Start server")
+	if err := http.ListenAndServe(":8080", router); err != nil {
 		log.Fatal(err)
 	}
 }

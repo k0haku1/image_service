@@ -17,6 +17,7 @@ func InitRouter() *http.ServeMux {
 	router.HandleFunc("/task/create", taskHandler.CreateTask)
 	router.HandleFunc("/task/add", taskHandler.AddFiles)
 	router.HandleFunc("/task/status", taskHandler.GetStatus)
+	router.Handle("/download/", http.StripPrefix("/download/", http.FileServer(http.Dir("data/archives"))))
 
 	return router
 }

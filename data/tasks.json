@@ -1,42 +1,27 @@
 {
-  "4f280191-bb64-4319-9876-126b81024cb9": {
-    "id": "4f280191-bb64-4319-9876-126b81024cb9",
-    "status": "complete",
-    "files": [
-      "https://i.pinimg.com/originals/62/e2/34/62e234e56e41192142c00fb391546c75.jpg",
-      "https://www.rollingmoto.ru/upload/iblock/f3c/yn9ot076na8gcdotos6mk8dbdkd9raxo.jpg",
-      "https://motodom.by/images/dic/014.jpg"
-    ],
-    "failed_files": null,
-    "url": "data/archives/4f280191-bb64-4319-9876-126b81024cb9.zip"
-  },
-  "7a991f5a-36af-4d47-bb05-70d8a6b74a45": {
-    "id": "7a991f5a-36af-4d47-bb05-70d8a6b74a45",
-    "status": "complete",
-    "files": [
-      "https://i.pinimg.com/originals/62/e2/34/62e234e56e41192142c00fb391546c75.jpg",
-      "https://www.rollingmoto.ru/upload/iblock/f3c/yn9ot076na8gcdotos6mk8dbdkd9raxo.jpg",
-      "https://motodom.by/images/dic/014.jpg"
-    ],
-    "failed_files": null,
-    "url": "data/archives/7a991f5a-36af-4d47-bb05-70d8a6b74a45.zip"
-  },
-  "89f84b62-1293-499f-a106-d2c962772678": {
-    "id": "89f84b62-1293-499f-a106-d2c962772678",
+  "28d46dbd-642d-427b-835f-c3dd5c74b6c7": {
+    "id": "28d46dbd-642d-427b-835f-c3dd5c74b6c7",
     "status": "pending",
     "files": [],
     "failed_files": null,
     "url": ""
   },
-  "ff4f00a9-ac62-4d97-bb83-5dc6ea477bd1": {
-    "id": "ff4f00a9-ac62-4d97-bb83-5dc6ea477bd1",
+  "7c4ea344-3062-4a73-bc59-1b348de524cd": {
+    "id": "7c4ea344-3062-4a73-bc59-1b348de524cd",
     "status": "complete",
     "files": [
-      "https://i.pinimg.com/originals/62/e2/34/62e234e56e41192142c00fb391546c75.jpg",
-      "https://www.rollingmoto.ru/upload/iblock/f3c/yn9ot076na8gcdotos6mk8dbdkd9raxo.jpg",
-      "https://motodom.by/images/dic/014.jpg"
+      "https://static.tildacdn.com/tild6164-6131-4661-b035-386232376233/_.jpg",
+      "https://icdn.lenta.ru/images/2025/03/10/18/20250310183817287/square_1280_ef1c887b3780ec1c05b7ff1e5998a94f.jpg",
+      "https://icdn.lenta.ru/images/2025/03/10/18/20250310183817287/square_1280_ef1c887b3780ec1c05b7ff1e5998a94f.jpg"
     ],
     "failed_files": null,
-    "url": "data/archives/ff4f00a9-ac62-4d97-bb83-5dc6ea477bd1.zip"
+    "url": "http://localhost:8080/download/7c4ea344-3062-4a73-bc59-1b348de524cd.zip"
+  },
+  "e0419a39-ef6d-4ad7-9925-b8018814c8e2": {
+    "id": "e0419a39-ef6d-4ad7-9925-b8018814c8e2",
+    "status": "pending",
+    "files": [],
+    "failed_files": null,
+    "url": ""
   }
 }

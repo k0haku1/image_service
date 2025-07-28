@@ -60,7 +60,7 @@ func (a *ArchiverService) Archive(task *model.Task) {
 	}
 
 	task.Status = model.StatusComplete
-	task.URL = archivePath
+	task.URL = fmt.Sprintf("http://localhost:8080/download/%s.zip", task.ID)
 	task.FailedFiles = failed
 
 	fmt.Printf("success: %s\n", archivePath)

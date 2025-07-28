@@ -131,14 +131,14 @@ func (s *TaskService) AddFilesInTask(id string, files []string) (*model.Task, er
 	return task, nil
 }
 
-func (s *TaskService) GetTaskStatus(id string) (*model.TaskStatus, error) {
+func (s *TaskService) GetTaskStatus(id string) (*model.Task, error) {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	task, ok := s.tasks[id]
 	if !ok {
 		return nil, fmt.Errorf("failed to find task %s", id)
 	}
-	return &task.Status, nil
+	return task, nil
 }
 
 func contains(s []string, str string) bool {
@@ -152,7 +152,7 @@ func contains(s []string, str string) bool {
 }
 
 func isAllowedExtension(filename string) bool {
-	ext := strings.ToLower(filepath.Ext(filename))
+	ext := strings.ToLower(filepath.Ext(strings.Split(filename, "?")[0]))
 	return contains(allowedExtensions, ext)
 }
 
