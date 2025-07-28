@@ -10,8 +10,9 @@ const (
 )
 
 type Task struct {
-	ID     string     `json:"id"`
-	Status TaskStatus `json:"status"`
-	Files  []string   `json:"files"`
-	URL    string     `json:"url"`
+	ID          string     `json:"id"`
+	Status      TaskStatus `json:"status"`
+	Files       []string   `json:"files"`
+	FailedFiles []string   `json:"failed_files"`
+	URL         string     `json:"url"`
 }

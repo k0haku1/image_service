@@ -1,0 +1,42 @@
+{
+  "4f280191-bb64-4319-9876-126b81024cb9": {
+    "id": "4f280191-bb64-4319-9876-126b81024cb9",
+    "status": "complete",
+    "files": [
+      "https://i.pinimg.com/originals/62/e2/34/62e234e56e41192142c00fb391546c75.jpg",
+      "https://www.rollingmoto.ru/upload/iblock/f3c/yn9ot076na8gcdotos6mk8dbdkd9raxo.jpg",
+      "https://motodom.by/images/dic/014.jpg"
+    ],
+    "failed_files": null,
+    "url": "data/archives/4f280191-bb64-4319-9876-126b81024cb9.zip"
+  },
+  "7a991f5a-36af-4d47-bb05-70d8a6b74a45": {
+    "id": "7a991f5a-36af-4d47-bb05-70d8a6b74a45",
+    "status": "complete",
+    "files": [
+      "https://i.pinimg.com/originals/62/e2/34/62e234e56e41192142c00fb391546c75.jpg",
+      "https://www.rollingmoto.ru/upload/iblock/f3c/yn9ot076na8gcdotos6mk8dbdkd9raxo.jpg",
+      "https://motodom.by/images/dic/014.jpg"
+    ],
+    "failed_files": null,
+    "url": "data/archives/7a991f5a-36af-4d47-bb05-70d8a6b74a45.zip"
+  },
+  "89f84b62-1293-499f-a106-d2c962772678": {
+    "id": "89f84b62-1293-499f-a106-d2c962772678",
+    "status": "pending",
+    "files": [],
+    "failed_files": null,
+    "url": ""
+  },
+  "ff4f00a9-ac62-4d97-bb83-5dc6ea477bd1": {
+    "id": "ff4f00a9-ac62-4d97-bb83-5dc6ea477bd1",
+    "status": "complete",
+    "files": [
+      "https://i.pinimg.com/originals/62/e2/34/62e234e56e41192142c00fb391546c75.jpg",
+      "https://www.rollingmoto.ru/upload/iblock/f3c/yn9ot076na8gcdotos6mk8dbdkd9raxo.jpg",
+      "https://motodom.by/images/dic/014.jpg"
+    ],
+    "failed_files": null,
+    "url": "data/archives/ff4f00a9-ac62-4d97-bb83-5dc6ea477bd1.zip"
+  }
+}
